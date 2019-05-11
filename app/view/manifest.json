@@ -2,9 +2,9 @@
   "name": "Super Heroes Marvel Recogniser from Photo",
   "short_name": "MARVEL AI",
   "icons": [{
-    "src": "https://stylist-assets.imgix.net/app/uploads/2018/09/14124114/09a_aeg_dompayoff_1sht-256x256.jpg?w=256&h=256&fit=max&auto=format%2Ccompress",
+    "src": "/static/icon256x256.jpg",
       "sizes": "256x256",
-      "type": "image/png"
+      "type": "image/jpg"
     }],
   "start_url": "/index.html",
   "display": "standalone",
