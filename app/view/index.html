@@ -41,11 +41,9 @@
     </div>
 </div>
 <script>
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker
-           .register('/sw.js')
-           .then(function() { console.log("Service Worker Registered"); });
-}
+navigator.serviceWorker && navigator.serviceWorker.register('../static/sw.js').then(function(registration) {
+  console.log('Excellent, registered with scope: ', registration.scope);
+});
 </script>
 </body>
 </html>
