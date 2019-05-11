@@ -2,9 +2,9 @@
   "name": "Super Heroes Marvel Recogniser from Photo",
   "short_name": "MARVEL AI",
   "icons": [{
-    "src": "/static/icon256x256.jpg",
-      "sizes": "256x256",
-      "type": "image/jpg"
+    "src": "/static/icon192x192.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
     }],
   "start_url": "/index.html",
   "display": "standalone",
